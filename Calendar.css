@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.calendar {
+  margin: auto;
+  max-width: 700px;
+  font-family: serif;
+  font-weight: bold;
+  color: black;
+}
+
+.month {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: black;
+  border: 2px solid;
+  background-color: hwb(189 40% 26%);
+}
+
+table,
+th,
+td {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 27px;
+  border-collapse: collapse;
+  border: 2px solid;
+  font-family: initial;
+}
+tr,
+th,
+td {
+  padding: 15px;
+}
+th {
+  background: #0badad;
+  font-family: sans-serif;
+}
+td {
+  background: #c4e8f8;
+}
+td:hover {
+  background-color: darkgray;
+}
